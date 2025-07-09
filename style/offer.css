@@ -1,0 +1,348 @@
+
+/* * Common styles */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.merriweather-normal {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.common-width{
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+/* ! Header banner area */
+
+
+.banner{
+    background-image: url(../img/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner-content{
+    width: 632px;
+    height: 246px;
+    text-align: center;
+}
+
+.banner-semititle{
+    color: red;
+    font-size: 32px;
+}
+
+.banner-title{
+    color: green;
+    font-size: 72px;
+    line-height: 95px;
+}
+
+/* ! Discount Area styles */
+
+.discount{
+    text-align: center;
+    margin: 120px 0px;
+}
+
+.discount-title{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+
+.discount-semititle{
+    font-size: 24px;
+    font-weight: 600px;
+    color: #FF0000;
+}
+
+.categori-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin: 16px 0px 48px 0px;
+}
+
+/* ! Party banner area styles */
+
+.Party-banner{
+    background: url(../img/images/Vectorrr.png) no-repeat;
+    height: 600px;
+    margin-bottom: 120px;
+}
+
+.party-content{
+    padding: 126px 0px 0px 126px;
+}
+
+.party-title{
+    width: 642px;
+    color: #FFFFFF;
+    font-size: 64px;
+}
+
+.party-description{
+    width: 697px;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 24px 0px 48px 0px;
+}
+
+.party-btn{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* ! Join info area styles */
+
+.join-info-bg{
+    background-image: linear-gradient(#FFE9E9, #FFFDFD);
+    height: 482px;
+    margin-bottom: 120px;
+}
+
+.join-info{
+    text-align: center;
+}
+
+.joining-description{
+    font-size: 32px;
+    font-weight: 600px; 
+    width: 549px;
+    padding-top: 100px;
+    line-height: 56px;
+}
+
+.joining-description span{
+    color: #FF0000;
+}
+
+.btn{
+    background-color: #FF0000;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: #FFFFFF;
+}
+
+/* ! Best offer area styles */
+
+.best-offer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.offer-semititle{
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 600px;
+    margin-top: 95px;
+}
+
+.offer-title{
+    font-size: 48px;
+    color: #070211;
+    margin: 16px 0px 22px 0px;
+}
+
+.offer-description{
+    width: 393px;
+    font-size: 20px;
+    color: #8D8B92;
+}
+
+.ellipse-pic{
+    outline: 15px solid #FF0000;
+    border-radius: 50%;
+    outline-offset: 30px;
+    margin: 0px 118px 0px 70px;
+}
+
+.offer-year{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 95px;
+}
+
+.offer-year-description{
+    width: 276px;
+    font-size: 20px;
+    color: #8D8B92;
+    margin: 16px 0px 43px 0px
+}
+
+
+/* ! Holidays discount area styles */
+
+.holiday-discount{
+    background: url(../img/images/Group\ 75.png) no-repeat left bottom, url(../img/images/Rectangle\ 2.png) no-repeat bottom, url(../img/images/Group\ 44.png) no-repeat 95% center;
+}
+
+.holiday-discount-content{
+    text-align: center;
+    height: 986px;
+    margin-bottom: 120px;
+}
+
+.holiday-discount-semititle{
+    font-size: 24px;
+    font-weight: 600px;
+    color: #070211;
+}
+
+.holiday-discount-title{
+    font-size: 72px;
+    margin: 16px 0px 28px 0px;
+}
+
+.holiday-discount-title span{
+    color: #FF0000;
+}
+
+.holiday-discount-description{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #8D8B92;
+    padding: 0px 60px;
+    margin-bottom: 64px;
+}
+
+/* ! Products protfolio styles */
+
+.product-semititle{
+    font-size: 24px;
+    font-weight: 600px;
+    color: #FF0000;
+}
+
+.product-title{
+    font-size: 48px;
+    color: #070211;
+    margin: 16px 0px 22px 0px;
+}
+
+.product-description{
+    width: 896px;
+    font-size: 20px;
+    color: #8D8B92;
+    margin-bottom: 48px;
+}
+
+.products{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+
+/* ! Subscriber area styles */
+
+.subscriber-newsletter{
+    background-color: #FFF2F2;
+    margin-top: 120px;
+    padding: 80px 212px;
+    text-align: center;
+}
+
+.Subscribe-title{
+    font-size: 48px;
+    color: #070211;
+    margin: 40px 0px 22px 0px;
+}
+
+.Subscribe-description{
+    font-size: 20px;
+    color: #8D8B92;
+    margin-bottom: 48px;
+}
+
+/* * styles form area */
+
+form input[type="email"]{
+    width: 438px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    outline: none;
+}
+
+.Subscribe-btn{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600px;
+    width: 210px;
+    padding: 20px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    margin-left: -7px;
+    cursor: pointer;
+}
+
+
+/* ! Foote area styles */
+
+footer{
+    background-color: #070211;
+    margin-top: 120px;
+    padding: 120px 140px;
+    color: #FFFFFF;
+}
+
+.address-area{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.footer-hr{
+    border: 1px solid #141414;
+    text-align: center;
+}
+
+.social-media-icon{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.social-media-icon img{
+    margin-right: 25px;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
