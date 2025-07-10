@@ -31,13 +31,14 @@
 
 
 .banner{
-    background-image: url(../img/images/Banner\ Image.png);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)), url(../img/images/Banner\ Image.png);
     background-repeat: no-repeat;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    border-radius: 20px;
 }
 
 .banner-content{
@@ -47,12 +48,12 @@
 }
 
 .banner-semititle{
-    color: red;
+    color: #FFFFFF;
     font-size: 32px;
 }
 
 .banner-title{
-    color: green;
+    color: #FFFFFF;
     font-size: 72px;
     line-height: 95px;
 }
@@ -87,10 +88,13 @@
 /* ! Party banner area styles */
 
 .Party-banner{
-    background: url(../img/images/Vectorrr.png) no-repeat;
+    background: url(../img/images/Group\ 70.png) no-repeat 85% center, linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(../img/images/Vectorrr.png) no-repeat;
     height: 600px;
     margin-bottom: 120px;
+    border-radius: 20px;
 }
+
+
 
 .party-content{
     padding: 126px 0px 0px 126px;
